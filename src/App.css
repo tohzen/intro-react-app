@@ -1,0 +1,84 @@
+.all{
+    width: 99%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.header, .center, .footer {
+    background-color: lightsalmon;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 35px;
+    border: 1px solid black;
+}
+/* ----------------------*/
+/* Middle*/
+/* ----------------------*/
+.center{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.sidebar {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+.body {
+    border: 1px solid black;
+    background-color: deepskyblue;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.squares{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.color{
+    color: rebeccapurple;
+    list-style: none;
+}
+
+.img{
+    width: 300px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0931/7974/products/64131_grande_2x.jpeg?v=1441734741");
+    height: 200px;
+}
+/* ----------------------*/
+/* Footer*/
+/* ----------------------*/
+.footer{
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-h1{
+    font-size: 15px;
+    display: flex;
+}
+
+.empty {
+    color: turquoise;
+    font-size: 15px;
+}
+
